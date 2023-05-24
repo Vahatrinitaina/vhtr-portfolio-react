@@ -1,17 +1,10 @@
 import React from 'react'
-import plume from '../img/plume.png'
+
 
 export default function About() {
     return (
-        <div className='fl' 
-        style={{
-            backgroundImage: `url(${plume})`,
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center',
-            minHeight: '100vh', // Définissez une hauteur minimale pour que l'image de fond soit visible
-          }}>  
-            <h1 className='propos' id='adala' >A propos</h1>             
+        <div className='fl' >  
+            <h1 className='propos' >About</h1>             
             <p className='tata'>
                 Après avoir obtenu mon diplôme de cinq ans à l'École Supérieure Polytechnique d'Antananarivo, j'ai rapidement intégré le monde 
                 professionnel en tant que Rédacteur/Correcteur au sein d'une entreprise française. Parallèlement, j'ai choisi de suivre une

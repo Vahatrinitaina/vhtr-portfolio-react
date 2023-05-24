@@ -25,10 +25,10 @@ export default function Contact() {
 
   return (
 
-    <div>
+    <div className='contact'>
       <Container fluid>
         <Row className='first'>
-          <Col xs={12} md={8} xl={8}>
+          <Col xs={12} md={6} xl={8}>
             <h1 className='propos' id='at'>Contact</h1>
             <h3 className='ti'>Formulaire de message</h3>
             <form className='fo' onSubmit={handleSubmit}>
@@ -45,7 +45,7 @@ export default function Contact() {
 
           </Col>
 
-          <Col xs={12} md={4} xl={4}>
+          <Col xs={12} md={6} xl={4} className='voyou'>
             <h2 className='to'>Telecharger mon CV </h2>
             <button className='b' onClick={handleDownload}>ICI</button>
 

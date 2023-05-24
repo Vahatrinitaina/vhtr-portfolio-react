@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse, faPerson, faListCheck, faIdBadge, faAddressCard } from '@fortawesome/free-solid-svg-icons';
-import { ReactComponent as Facebook } from '../img/logo/facebook.svg';
 import { ReactComponent as LinkedIn } from '../img/logo/linkedin.svg';
 import { ReactComponent as Gmail } from '../img/logo/gmail.svg';
 import { Link } from 'react-scroll';
@@ -46,7 +45,7 @@ export default function Siderbar() {
                  
                 </li>
                 <li className={`nav-item social-icons ${isSidebarOpen ? 'open' : 'closed'}`}>
-                  <div className='vody'><a href='mailto:ramahatra@gmail.com' target='_blank'><Gmail className='grou' /></a><a href='https://www.linkedin.com/in/vahatriniaina-ramaheninarivo-377b8b164/' target='_blank'><LinkedIn className='grou' /></a> <a href='https://github.com/Vahatrinitaina' target='_blank'><GitHub className='grou'/></a></div>
+                  <div className='vody'><a href='mailto:ramahatra@gmail.com' target='_blank' rel="noreferrer"><Gmail className='grou' /></a><a href='https://www.linkedin.com/in/vahatriniaina-ramaheninarivo-377b8b164/' target='_blank' rel="noreferrer"><LinkedIn className='grou' /></a> <a href='https://github.com/Vahatrinitaina' target='_blank' rel="noreferrer"><GitHub className='grou'/></a></div>
                 </li>
               </ul>
             </nav>

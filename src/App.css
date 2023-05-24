@@ -7,6 +7,8 @@ body {
   background-color: rgb(23, 21, 21);
   margin: 0;
   padding: 0;
+  height: 100vh;
+  width: 100vw;
 
 }
 
@@ -16,9 +18,11 @@ body {
   padding: 20px;
   margin-left: -30px;
 
-  width: 60px;
+  width: 55px;
   overflow: hidden;
   transition: width 0.3s;
+  height: 100vh;
+
 }
 
 .sidebar:hover {
@@ -53,7 +57,7 @@ body {
 
 #foot {
   position: relative;
-  bottom: -350px;
+  bottom: -50vh;
 }
 
 #adala {
@@ -199,7 +203,10 @@ body {
 .skii {
   background-color: rgb(23, 21, 21);
   padding-left: 150px;
-  padding-bottom: 200px;
+  height: max-content;
+  padding-bottom: 300px;
+  width: fit-content;
+  margin-left: -20px;
 
 }
 
@@ -218,6 +225,7 @@ body {
   font-family: 'Damion', cursive;
   padding-bottom: 10px;
   padding-top: 20px;
+
 }
 
 .sous {
@@ -225,6 +233,7 @@ body {
   font-family: 'Damion', cursive;
   padding-bottom: 10px;
   padding-top: 10px;
+
 }
 
 
@@ -357,7 +366,25 @@ body {
   .App {
     margin-right: -90px;
   }
+  .tit {
+    color: #ff0921;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left:-70px;
+  }
+  
+  .sous {
+    color: white;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left:-80px
+  }
 
+  .contact{
+    height: 1180px;
+  }
   .profile {
     width: 180px;
     margin-top: -160px;
@@ -386,6 +413,24 @@ body {
 @media screen and (min-width: 414px) and (max-width: 768px) {
   .App {
     margin-right: -90px;
+  }
+  .tit {
+    color: #ff0921;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left:-70px;
+  }
+  
+  .sous {
+    color: white;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left:-80px
+  }
+  .contact{
+    height: 1180px;
   }
 
   .profile {
@@ -419,6 +464,24 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1080px) {
   .App {
     margin-right: -90px;
+  }
+  .tit {
+    color: #ff0921;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left:-70px;
+  }
+  
+  .sous {
+    color: white;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left:-80px
+  }
+  .contact{
+    height: 1180px;
   }
 
   .profile {
@@ -455,6 +518,24 @@ body {
   .App {
     margin-right: -90px;
   }
+  .tit {
+    color: #ff0921;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left:-70px;
+  }
+  
+  .sous {
+    color: white;
+    font-family: 'Damion', cursive;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left:-80px
+  }
+  .contact{
+    height: 1180px;
+  }
 
   .profile {
     width: 230px;
@@ -483,9 +564,10 @@ body {
   display: flex;
   justify-content: center;
   background-color: rgb(23, 21, 21);
-  padding-top: 100px;
-  padding-bottom: 50px;
-  height: fit-content;
+  padding-bottom: 100px;
+  height: max-content;
+  width: 100vw;
+  margin-top:-20px;
 }
 
 .propos {
@@ -494,7 +576,7 @@ body {
   padding-bottom: 10px;
   padding-top: 20px;
   position: relative;
-  left: 50px;
+  left: 40px;
 }
 
 #v {
@@ -503,19 +585,24 @@ body {
 .fix{
   position: fixed;
 }
+.contact{
+  background-color: rgb(23, 21, 21);
+  overflow: hidden;
+}
+
 .tata {
   overflow: auto;
   position: relative;
-  top: 20px;
+  top: 100px;
   bottom: 50%;
   width: 1200px;
-  height: 650px;
+  height: 630px;
 
-  left:-50px;
+  left:-40px;
 
   background-color: rgba(182, 180, 180, 0.8);
   font-family: 'Sacramento', cursive;
-  font-size: 33px;
+  font-size: 35px;
   text-align: center;
   border-radius: 40px;
   font-weight: bold;
@@ -528,7 +615,7 @@ body {
 
 .carte {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap-reverse;
   margin-top: 100px;
   margin-left: 50px;
@@ -537,7 +624,10 @@ body {
 }
 
 .gg {
-  margin-right: 100px
+  width: 100vw;
+  background-color: rgb(23, 21, 21);
+  margin-right: 0;
+  overflow: hidden;
 }
 
 .ensemble {
@@ -627,7 +717,7 @@ body {
   margin-top: 50px;
   height: 50px;
   border-radius: 8px;
-  width: 500px;
+  width: 450px;
 }
 
 .fo {
@@ -653,7 +743,7 @@ body {
 .name {
   color: #cccccc;
   margin-bottom: -45px;
-  margin-left: -440px;
+  margin-left: -410px;
   margin-top: 40px;
 }
 
@@ -670,18 +760,18 @@ body {
 }
 
 #mes {
-  margin-left: -380px;
+  margin-left: -350px;
 }
 
 #iza {
-  margin-left: -350px;
+  margin-left: -310px;
 }
 
 .b {
   position: relative;
-  top: 100px;
-  left: 200px;
-  right: auto;
+  left:200px;
+  top: 80px;
+
   border: 3px solid red;
   width: 100px;
   height: 100px;
