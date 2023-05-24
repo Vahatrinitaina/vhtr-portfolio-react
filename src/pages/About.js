@@ -4,7 +4,7 @@ import React from 'react'
 export default function About() {
     return (
         <div className='fl' >  
-            <h1 className='propos' >About</h1>             
+            <h1 className='propos' id='farany' >About</h1>             
             <p className='tata'>
                 Après avoir obtenu mon diplôme de cinq ans à l'École Supérieure Polytechnique d'Antananarivo, j'ai rapidement intégré le monde 
                 professionnel en tant que Rédacteur/Correcteur au sein d'une entreprise française. Parallèlement, j'ai choisi de suivre une

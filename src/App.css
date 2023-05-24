@@ -202,13 +202,13 @@ body {
 
 .skii {
   background-color: rgb(23, 21, 21);
-  padding-left: 150px;
+
   height: max-content;
   padding-bottom: 300px;
-  width: fit-content;
-  margin-left: -20px;
+  width: 100vw;
 
 }
+
 
 .globe {
   display: flex;
@@ -225,6 +225,7 @@ body {
   font-family: 'Damion', cursive;
   padding-bottom: 10px;
   padding-top: 20px;
+  margin-left: 150px;
 
 }
 
@@ -233,7 +234,7 @@ body {
   font-family: 'Damion', cursive;
   padding-bottom: 10px;
   padding-top: 10px;
-
+  margin-left: 150px;
 }
 
 
@@ -366,20 +367,34 @@ body {
   .App {
     margin-right: -90px;
   }
+ 
+
+  
   .tit {
     color: #ff0921;
     font-family: 'Damion', cursive;
     padding-bottom: 10px;
     padding-top: 20px;
-    margin-left:-70px;
+    margin-left: 100px;
   }
+  .skii{
+    width: 100vw;
+  }
+  #name,#sujet,#message, #email{
+    width: 300px;
+    
+  }
+  .name{
+    padding-left: 170px;
+  }
+
   
   .sous {
     color: white;
     font-family: 'Damion', cursive;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-left:-80px
+    margin-left:80px
   }
 
   .contact{
@@ -414,12 +429,22 @@ body {
   .App {
     margin-right: -90px;
   }
+  #name,#sujet,#message, #email{
+    width: 300px;
+    
+  }
+  .name{
+    padding-left: 170px;
+  }
+  .skii{
+    width: 100vw;
+  }
   .tit {
     color: #ff0921;
     font-family: 'Damion', cursive;
     padding-bottom: 10px;
     padding-top: 20px;
-    margin-left:-70px;
+    margin-left:50px;
   }
   
   .sous {
@@ -427,7 +452,7 @@ body {
     font-family: 'Damion', cursive;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-left:-80px
+    margin-left:40px
   }
   .contact{
     height: 1180px;
@@ -465,12 +490,15 @@ body {
   .App {
     margin-right: -90px;
   }
+  .skii{
+    width: 100vw;
+  }
   .tit {
     color: #ff0921;
     font-family: 'Damion', cursive;
     padding-bottom: 10px;
     padding-top: 20px;
-    margin-left:-70px;
+    margin-left:70px;
   }
   
   .sous {
@@ -478,7 +506,7 @@ body {
     font-family: 'Damion', cursive;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-left:-80px
+    margin-left:70px
   }
   .contact{
     height: 1180px;
@@ -487,6 +515,13 @@ body {
   .profile {
     width: 200px;
     margin-left: -50px;
+  }
+  #name,#sujet,#message, #email{
+    width: 300px;
+    
+  }
+  .name{
+    padding-left: 170px;
   }
 
   .profil {
@@ -517,6 +552,9 @@ body {
 @media screen and (min-width: 1078px) and (max-width: 1422px) {
   .App {
     margin-right: -90px;
+  }
+  .skii{
+    width: 100vw;
   }
   .tit {
     color: #ff0921;
@@ -703,14 +741,25 @@ body {
   height: fit-content;
   border-radius: 10px;
 }
+#farany{
+margin-top:30px;
+margin-left: 10px;
+}
 
 .gi {
   border-radius: 30px;
   background-color: transparent;
 
 }
+
+@media screen and (min-width: 1024px) {
+  
 #at{
   margin-left: 100px;
+}
+#zaza{
+  margin-left:140px;
+}
 }
 
 .fofo {
@@ -749,7 +798,7 @@ body {
 
 .ti {
   color: white;
-  margin-left: 150px;
+  margin-left: 50px;
   padding-top: 50px
 }
 

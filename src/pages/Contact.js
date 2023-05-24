@@ -30,7 +30,7 @@ export default function Contact() {
         <Row className='first'>
           <Col xs={12} md={6} xl={8}>
             <h1 className='propos' id='at'>Contact</h1>
-            <h3 className='ti'>Formulaire de message</h3>
+            <h3 className='ti' id='zaza'>Formulaire de message</h3>
             <form className='fo' onSubmit={handleSubmit}>
               <label for='name' className='name' >Nom</label>
               <input placeholder='Nom' type='text' className='fofo' id='name' required />
